@@ -94,6 +94,41 @@ main {
     }
 }
 
+@media screen and (max-width: 400px) {
+    #quote-box {
+        max-width: 200px;
+    }
+
+    #text {
+        font-size: 1em;
+    }
+
+    #author {
+        font-size: 0.8em;
+    }
+    
+    .creator {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #quote-box {
+        max-width: 150px;
+    }
+
+    #text {
+        font-size: 1.2em;
+    }
+
+    #author {
+        font-size: 1em;
+    }
+
+    .creator {
+        font-size: 0.6em;
+    }
+}
 .creator {
     color: #fff
 }
