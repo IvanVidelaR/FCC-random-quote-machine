@@ -80,7 +80,7 @@ function App() {
 					<p className="credits">IvanVidelaR </p>
 				</a>
 				<p>;</p>
-				<a href="https://github.com/IvanVidelaR/FCC-pomodoro-clock" target="_blank">
+				<a href="https://github.com/IvanVidelaR/FCC-random-quote-machine" target="_blank">
 					<i className="fa-brands fa-square-github credits-github"></i>
 				</a>
 			</div>
