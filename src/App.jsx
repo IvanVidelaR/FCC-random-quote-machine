@@ -74,7 +74,16 @@ function App() {
 					<button class="button" id="new-quote" onClick={fetchNewQuote}>New Quote</button>
 				</div>
             </div>
-			<p className="creator">by IvanVidelaR</p>
+			<div className="container-credits">
+				<p>by</p>
+				<a href="https://www.linkedin.com/in/ivanvidelar/" target="_blank">
+					<p className="credits">IvanVidelaR </p>
+				</a>
+				<p>;</p>
+				<a href="https://github.com/IvanVidelaR/FCC-pomodoro-clock" target="_blank">
+					<i className="fa-brands fa-square-github credits-github"></i>
+				</a>
+			</div>
         </main>
     )
 }

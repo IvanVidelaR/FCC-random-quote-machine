@@ -107,7 +107,7 @@ main {
         font-size: 0.8em;
     }
     
-    .creator {
+    .container-credits {
         font-size: 0.8em;
     }
 }
@@ -125,10 +125,35 @@ main {
         font-size: 1em;
     }
 
-    .creator {
+    .container-credits {
         font-size: 0.6em;
     }
 }
-.creator {
-    color: #fff
+
+.container-credits {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.container-credits a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.container-credits a:hover {
+    color: gray;
+    transform: scale(1.05);
+}
+
+.credits {
+    font-size: 1.1em;
+}
+
+.credits-github {
+    font-size: 1.5em;
 }
